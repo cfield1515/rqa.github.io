@@ -5,9 +5,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     // Simulate authentication
     if (username === 'admin' && password === 'admin') {
-        window.location.href = '/admin'; // Redirect to admin page
+        window.location.href = 'admin.html'; // Redirect to admin page
     } else if (username === 'school' && password === 'school') {
-        window.location.href = '/school'; // Redirect to school page
+        window.location.href = 'school.html'; // Redirect to school page
     } else {
         document.getElementById('errorMessage').innerText = 'Invalid username or password';
     }
